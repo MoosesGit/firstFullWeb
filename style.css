@@ -1,3 +1,5 @@
+/* ----------- Universal edits START ----------*/
+
 *{
   font-family: sans-serif;
 
@@ -56,6 +58,8 @@ ul{
   padding: 0;
 }
 
+/* UNIVERSIAL CHANGES END */
+
 .website-margin{
   margin: none;
 
@@ -81,31 +85,28 @@ ul{
   margin: 10px 0px 0px 0px;
 }
 
+.width-container{
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+
+}
+
 .header-container{
   /* background-color: lightblue; */
   display: flex;
   flex-direction: row;
   height: 50px;
   background-color: #ffffff;
-  border-bottom: #000000;
   width: 100%;
   justify-content: space-between;
-  position: -webkit-sticky; 
-  position: sticky;
-  top: 0; 
-  
   padding: 10px 0px;
-
-  border-bottom: 1px solid #f0f0f5;
-
   margin-left: auto;
   margin-right: auto;
-
   width: 100%;
   max-width: 1200px;
-
-  left: 0;
-
 }
 
 .buttons-section{
@@ -115,7 +116,6 @@ ul{
   flex: 1;
   justify-content:flex-end;
   column-gap: 10px;
-  
   
 }
 .buttons-style{
@@ -139,6 +139,8 @@ ul{
   border-radius: 10px;
 }
 
+
+/* ------------- NAVIGAION --------------*/
 nav ul{
   list-style-type: none;
   padding: 0;
@@ -165,6 +167,7 @@ nav ul li a::after{
   background-color: #000000;
   transition: width 0.3s ease;
   height: 2px;
+  
 
 }
 nav ul li a:hover::after{
@@ -192,6 +195,8 @@ nav ul li a:focus::after{
 .big-3{
   display: flex;
   justify-content: center;
+  text-align: center;
+
 }
 
 .main-site-container{
@@ -207,9 +212,7 @@ nav ul li a:focus::after{
   flex-wrap: wrap;
   width: 100%;
   max-width: 1200px;
-
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 
 
 }
